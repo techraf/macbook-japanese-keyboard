@@ -9,6 +9,8 @@
       - Home / End / PageUp / PadeDown
     all
       next word / previous word with option+arrow
+      use "eisuu" for Windows key
+      use "kana" for context key
 -->
 <root>
   <appdef>
