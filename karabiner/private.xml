@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--
+  Some of the settings (e.g. CURSOR) are meant to be used in conjunction with
+  Karabiner's native setting:
+    Change command line key to control key in Remote Desktop
+
+  TODO:
+    VMware Remote Console:
+      - Home / End / PageUp / PadeDown
+    all
+      next word / previous word with option+arrow
+-->
+<root>
+  <appdef>
+    <appname>VMWAREREMOTECONSOLE</appname>
+    <equal>com.vmware.vmrc</equal>
+  </appdef>
+  <item>
+    <name>Map Japanese to English keyboard in RDP</name>
+    <identifier>windows.rdp.maptoenglish</identifier>
+    <only>REMOTEDESKTOPCONNECTION, VMWAREREMOTECONSOLE</only>
+    <autogen>__KeyToKey__ KeyCode::JIS_COLON,ModifierFlag::NONE,KeyCode::SEMICOLON,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_COLON,ModifierFlag::SHIFT_L,KeyCode::8,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_COLON,ModifierFlag::SHIFT_R,KeyCode::8,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::MINUS,ModifierFlag::SHIFT_L,KeyCode::EQUAL</autogen>
+    <autogen>__KeyToKey__ KeyCode::MINUS,ModifierFlag::SHIFT_R,KeyCode::EQUAL</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_HAT,ModifierFlag::NONE,KeyCode::6,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_HAT,ModifierFlag::SHIFT_L,KeyCode::BACKQUOTE,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_HAT,ModifierFlag::SHIFT_R,KeyCode::BACKQUOTE,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::2,ModifierFlag::SHIFT_L, KeyCode::QUOTE,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::2,ModifierFlag::SHIFT_R, KeyCode::QUOTE,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::6,ModifierFlag::SHIFT_L, KeyCode::7,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::6,ModifierFlag::SHIFT_R, KeyCode::7,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::7,ModifierFlag::SHIFT_L, KeyCode::QUOTE</autogen>
+    <autogen>__KeyToKey__ KeyCode::7,ModifierFlag::SHIFT_R, KeyCode::QUOTE</autogen>
+    <autogen>__KeyToKey__ KeyCode::8,ModifierFlag::SHIFT_L, KeyCode::9,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::8,ModifierFlag::SHIFT_R, KeyCode::9,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::9,ModifierFlag::SHIFT_L, KeyCode::0,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::9,ModifierFlag::SHIFT_R, KeyCode::0,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::0,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::0,ModifierFlag::SHIFT_R</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_YEN,ModifierFlag::NONE,KeyCode::VK_JIS_BACKSLASH</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_ATMARK | ModifierFlag::NONE,KeyCode::2,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_ATMARK | ModifierFlag::SHIFT_L,KeyCode::BACKQUOTE</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_ATMARK | ModifierFlag::SHIFT_R,KeyCode::BACKQUOTE</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_BRACKET_LEFT | ModifierFlag::NONE,KeyCode::BRACKET_LEFT</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_BRACKET_LEFT | ModifierFlag::SHIFT_L,KeyCode::BRACKET_LEFT,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_BRACKET_LEFT | ModifierFlag::SHIFT_R,KeyCode::BRACKET_LEFT,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON,ModifierFlag::SHIFT_L,KeyCode::EQUAL,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON,ModifierFlag::SHIFT_R,KeyCode::EQUAL,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_BRACKET_RIGHT | ModifierFlag::NONE,KeyCode::BRACKET_RIGHT</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_BRACKET_RIGHT | ModifierFlag::SHIFT_L,KeyCode::BRACKET_RIGHT,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::JIS_BRACKET_RIGHT | ModifierFlag::SHIFT_R,KeyCode::BRACKET_RIGHT,ModifierFlag::SHIFT_L</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_LEFT,ModifierFlag::CONTROL_L, KeyCode::CURSOR_LEFT,ModifierFlag::FN</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_RIGHT,ModifierFlag::CONTROL_L, KeyCode::CURSOR_RIGHT,ModifierFlag::FN</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_UP,ModifierFlag::CONTROL_L, KeyCode::PAGEUP</autogen>
+    <autogen>__KeyToKey__ KeyCode::CURSOR_DOWN,ModifierFlag::CONTROL_L, KeyCode::PAGEDOWN</autogen>
+  </item>
+</root>
